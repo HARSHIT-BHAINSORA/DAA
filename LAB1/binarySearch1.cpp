@@ -38,3 +38,11 @@ int main()
     binarySearch(arr , n , key) == true ?cout<<"key is Present" : cout<<"Key is Not Present";
     return 0;
 }
+
+
+/* Time complexity is O(logn)
+reson begin   1 it -> n , 2 it -> n/2 , 3 it -> n/2^2 ... k it-> 1
+so the limiting  is 1 = n / 2^K
+2^k = n (log both side).
+k log 2 = log n
+k = log n / log 2 = logn base 2  -> O(log n)*/

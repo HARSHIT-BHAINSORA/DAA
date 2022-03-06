@@ -34,4 +34,6 @@ int main()
  arr[5] = {1 , 4, 2 , 5, 3}
  key = 5;
 
- no.of comparison is - 1 + 
+ no.of comparison is - 4
+Time complexity - O(n) 
+ */
