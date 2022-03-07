@@ -1,7 +1,6 @@
-
-#include<iostream.h>
+#include<iostream>
 #include<math.h>
-
+using namespace std;
 
 bool jumpSearch(int arr[] , int n , int target)
 {
@@ -32,10 +31,6 @@ bool jumpSearch(int arr[] , int n , int target)
     return false;
 }
 
-
-
-
-
 int main()
 {
     int n , key;
@@ -52,3 +47,7 @@ int main()
     jumpSearch(arr , n , key) == true ?cout<<"key is Present" : cout<<"Key is Not Present";
     return 0;
 }
+
+/* Time Complexity is 
+n - no.of element  ,  m - no. of block if we reached then implement linear search m-1 
+n / m . m-1 if diff. it , it become sqrt(n) O(sqrt(n))  regular jump search.*/
