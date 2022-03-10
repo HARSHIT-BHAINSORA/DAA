@@ -13,7 +13,7 @@ vector<pair{int ,int}> twoSum(int arr[] , int n , int sum)
     {
         if(arr[st] + arr[end] == sum)
         {
-            ams.push_back({st , end});
+            ans.push_back({st , end});
             end--;
         }
         else if(arr[st] + arr[end] < sum)
