@@ -1,4 +1,4 @@
-// bfs (breath first search)
+// bfs (breath first search) is path
 
 #include<bits/stdc++.h>
 using namespace std;
