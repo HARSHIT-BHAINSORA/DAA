@@ -56,7 +56,7 @@ int main()
         else if(W > 0)
         {
             maxProfit += (float) W / weg * pro;
-            cout<< "The maximum profit is = " maxProfit ;
+            cout<< "The maximum profit is = "<< maxProfit ;
             return 0;
         }
     }
