@@ -41,7 +41,7 @@ int main()
     for(int i=0 ; i < n ; i++)
         cin>>arr[i];
 
-    cout<<"Enter an key ";
+    cout<<"Enter any key ";
     cin>>key;
 
     jumpSearch(arr , n , key) == true ?cout<<"key is Present" : cout<<"Key is Not Present";
