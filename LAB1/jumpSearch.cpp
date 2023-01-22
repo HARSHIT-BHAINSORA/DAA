@@ -10,7 +10,7 @@ bool jumpSearch(int arr[] , int n , int target)
 
     while(arr[right] <= target && right < n)
     {
-        // we are not is correct one skip it...
+        // we are not in correct path skip it...
 
         left = right;
         right = pow(2,i++);
